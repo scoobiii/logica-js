@@ -58,6 +58,37 @@ Siga os passos abaixo para configurar e executar o jogo no seu computador:
    npm start
    ```
 
+~/.../logica/jogo-do-numero-secreto $ npm install
+
+removed 65 packages, and audited 1 package in 7s
+
+found 0 vulnerabilities
+~/.../logica/jogo-do-numero-secreto $ npm start
+
+> jogo-do-numero-secreto@1.0.0 start
+> node app.js
+
+[ 4 ]
+/data/data/com.termux/files/home/ImersaoDevBacEnd/logica/jogo-do-numero-secreto/app.js:7
+    let campo = document.querySelector(tag);
+                ^
+
+ReferenceError: document is not defined
+    at exibirTextoNaTela (/data/data/com.termux/files/home/ImersaoDevBacEnd/logica/jogo-do-numero-secreto/app.js:7:17)
+    at exibirMensagemInicial (/data/data/com.termux/files/home/ImersaoDevBacEnd/logica/jogo-do-numero-secreto/app.js:13:5)
+    at Object.<anonymous> (/data/data/com.termux/files/home/ImersaoDevBacEnd/logica/jogo-do-numero-secreto/app.js:17:1)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1691:10)
+    at Module.load (node:internal/modules/cjs/loader:1317:32)
+    at Module._load (node:internal/modules/cjs/loader:1127:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:166:5)
+
+Node.js v22.8.0
+~/.../logica/jogo-do-numero-secreto $
+   
+
 4. **Abra o jogo no navegador**
    - O jogo será iniciado automaticamente. Caso não abra, vá para: [http://localhost:3000](http://localhost:3000).
 
@@ -86,6 +117,8 @@ O código usa `document.querySelector`, que só funciona no navegador. Se você 
 Execute o código no navegador ou implemente uma versão que funcione diretamente no Node.js para testes.
 
 ---
+
+tornar o codigo "responsivo para front e back end" full stack
 
 ## 🌟 Melhorias Sugeridas
 
