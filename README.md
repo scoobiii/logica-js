@@ -262,6 +262,11 @@ Essas opções permitem que você abra o arquivo HTML no navegador, usando o ter
 
 ## 🌟 Melhorias Sugeridas
 
+ <h1>Resultado</h1>
+  <div id="image-container">
+    <img id="screenshot" src="https://github.com/scoobiii/logica-js/blob/aula_5/img/Screenshot_20241119-121103_Chrome.jpg?raw=true" alt="Screenshot">
+  </div>
+
 1. **Adicionar níveis de dificuldade**
    - Fácil: Número secreto entre 1 e 10.
    - Médio: Número secreto entre 1 e 50.
@@ -272,7 +277,8 @@ Essas opções permitem que você abra o arquivo HTML no navegador, usando o ter
 
 3. **Modo multiplayer**
    - Jogadores podem competir para ver quem acerta primeiro.
-
+   - Jogadores podem competir com deep jogador para ver quem acerta primeiro..
+   
 4. **Responsividade**
    - Garantir que o jogo funcione bem em dispositivos móveis.
 
