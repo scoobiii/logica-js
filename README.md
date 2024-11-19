@@ -32,7 +32,11 @@ O projeto é organizado assim:
 ├── package.json             # Configurações e dependências
 ├── package-lock.json        # Registro de dependências instaladas
 ├── node_modules             # Bibliotecas utilizadas pelo Node.js
+├── estrutura.sh             # Script para condensar tree de pastas e arquivos para facilitar analise do projeto por humano e agi full stack devop
+├── estrutura.txt            # Saida do strutura.sh
 ```
+```
+
 
 ---
 
