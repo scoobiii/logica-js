@@ -34,6 +34,10 @@ O projeto é organizado assim:
 ├── node_modules             # Bibliotecas utilizadas pelo Node.js
 ├── estrutura.sh             # Script para condensar tree de pastas e arquivos para facilitar analise do projeto por humano e agi full stack devop
 ├── estrutura.txt            # Saida do strutura.sh
+├── .gitignore                # vc não que vejam sua senha no github
+├── .env                      # guarda dados sensiveis como login e senha de banco local e remoto
+
+```
 ```
 ```
 
